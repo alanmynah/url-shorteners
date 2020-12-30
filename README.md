@@ -1,4 +1,4 @@
-# url-shortners
+# url-shorteners
 A collection of my url-shortener repos. Inspired by TodoMVC list and similar
 
 
