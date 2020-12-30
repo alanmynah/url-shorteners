@@ -6,22 +6,23 @@ These projects exist solely for me to evaluate various stacks, learn new tech wi
 
 All projects share the same requirements: 
 
-1) API format: 
-a) can create a redirect link, get it by id and get it by slug (see `example.http` file in each repo).
+### API format: 
 
-Entity is ShortLink:
-- id
-- slug
-- destination
+  a) can create a redirect link, get it by id and get it by slug (see `example.http` file in each repo).
+  
+  Entity is ShortLink:
 
-b) can then got to redirect/some-slug and get redirected to the destination.
+    - id
+    - slug
+    - destination
 
-2) System Requirements: 
+  b) can then got to redirect/some-slug and get redirected to the destination.
 
-- can store a lot of links.
-- shortlinks are as short as possible.
-- following a shortlink is fast.
-- shortlink follower is resilient to load spikes.
+### System Requirements: 
+  - can store a lot of links.
+  - shortlinks are as short as possible.
+  - following a shortlink is fast.
+  - shortlink follower is resilient to load spikes.
 
 | Language  | Framework  | DB    | ORM  | Containers  | GitHub Repo                                      |
 |-----------|------------|-------|------|-------------|--------------------------------------------------|
