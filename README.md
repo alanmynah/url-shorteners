@@ -6,6 +6,6 @@ These projects exist solely for me to evaluate various stacks, learn new tech wi
 
 | Language  | Framework  | DB    | ORM  | Containers  | GitHub Repo                                      |
 |-----------|------------|-------|------|-------------|--------------------------------------------------|
-|  C#       | .NET5.     | MSSQL | EF   | Docker      |https://github.com/alanmynah/url-shortener-csharp |
+|  C#       | .NET5      | MSSQL | EF   | Docker      |https://github.com/alanmynah/url-shortener-csharp |
 
 
